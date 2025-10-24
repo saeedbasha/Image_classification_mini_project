@@ -59,3 +59,5 @@ Please make sure you have forked the repo and set up a new virtual environment. 
 - Fashion MNIST contains **10 categories** of clothing items (t-shirt, trouser, pullover, dress, etc.).
 - Training on CPU is fast, but using a GPU will make it faster.
 - Focus on understanding the workflow rather than achieving perfect accuracy.
+
+### N.B. Do not clone a git repository inside another git repository! So please do the git clone ... command in a directory that is not already a git repository !
