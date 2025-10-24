@@ -10,33 +10,42 @@ This project is designed for local Jupyter Notebook usage and focuses on the cor
 - Train and evaluate a model on the Fashion MNIST dataset.
 - Make predictions and visualize results.
 - Explore basic model performance metrics.
+- 
+## Setup
 
-## Requirements
+## Environment
 
-- Python 3.x
-- Jupyter Notebook
-- TensorFlow 2.x
-- NumPy
-- Matplotlib
+Please make sure you have forked the repo and set up a new virtual environment. For this purpose you can use the following commands:
 
-Install dependencies using:
+### **`macOS`**
+```BASH
+  pyenv local 3.11.3
+  python -m venv .venv
+  source .venv/bin/activate
+  pip install --upgrade pip
+  pip install -r requirements.txt
+  ```
+### **`WindowsOS`**
+ For `PowerShell` CLI :
 
-```
-pip install tensorflow numpy matplotlib jupyter
-```
+  ```PowerShell
+  pyenv local 3.11.3
+  python -m venv .venv
+  .venv\Scripts\Activate.ps1
+  python -m pip install --upgrade pip
+  pip install -r requirements.txt
+  ```
 
-## How to Run
+  For `Git-Bash` CLI :
 
-1. Clone or download this repository.
-2. Open `image_classifier.ipynb` in Jupyter Notebook:
-   ```bash
-   jupyter notebook
-   ```
-3. Run all cells sequentially.
-4. Observe:
-   - Model training and validation accuracy.
-   - Predictions on test images.
-   - Training history plots.
+  ```
+  pyenv local 3.11.3
+  python -m venv .venv
+  source .venv/Scripts/activate
+  python -m pip install --upgrade pip
+  pip install -r requirements.txt
+  ```
+
 
 ## Optional Extensions
 
