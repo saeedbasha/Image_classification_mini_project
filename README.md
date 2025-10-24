@@ -1,25 +1,60 @@
-# Mini Fashion MNIST Coding Project
+# Mini Fashion MNIST Image Classifier
+
+A beginner-friendly Convolutional Neural Network (CNN) built on the **Fashion MNIST** dataset.  
+This project is designed for local Jupyter Notebook usage and focuses on the core concepts of deep learning with a simple, hands-on approach.
 
 ## Objectives
-- Load and preprocess Fashion MNIST dataset
-- Build your own Convolutional Neural Network (CNN)
-- Train and evaluate the model
-- Make predictions on test images
-- Optional: experiment with architecture or training parameters
 
-## Instructions
-1. Open `starter_notebook.ipynb` in Jupyter Notebook
-2. Complete the code in the TODO sections:
-   - Build the CNN
-   - Compile the model
-   - Train the model
-   - Evaluate performance and make predictions
-3. Use only the provided libraries: TensorFlow, NumPy, Matplotlib
-4. Submit the completed notebook
+- Understand the structure of a CNN.
+- Learn how to preprocess image data for deep learning.
+- Train and evaluate a model on the Fashion MNIST dataset.
+- Make predictions and visualize results.
+- Explore basic model performance metrics.
 
-## Hints
-- Use `layers.Conv2D`, `layers.MaxPooling2D`, `layers.Flatten`, and `layers.Dense`
-- Compile with `optimizer='adam'` and `loss='sparse_categorical_crossentropy'`
-- Train for 5 epochs and visualize training history
-- Make predictions with `model.predict()`
-- Optional: modify layer filters, activations, add dropout, or adjust epochs
+## Files
+
+- `image_classifier.ipynb` – The main notebook with the full workflow:  
+  1. Loading and preparing the dataset  
+  2. Building a CNN model  
+  3. Training and evaluating the model  
+  4. Making predictions and plotting results  
+
+## Requirements
+
+- Python 3.x
+- Jupyter Notebook
+- TensorFlow 2.x
+- NumPy
+- Matplotlib
+
+Install dependencies using:
+
+```
+pip install tensorflow numpy matplotlib jupyter
+```
+
+## How to Run
+
+1. Clone or download this repository.
+2. Open `image_classifier.ipynb` in Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+3. Run all cells sequentially.
+4. Observe:
+   - Model training and validation accuracy.
+   - Predictions on test images.
+   - Training history plots.
+
+## Optional Extensions
+
+- Modify the CNN architecture (e.g., add/remove layers).
+- Change the number of epochs to see its effect on training.
+- Experiment with different datasets (e.g., MNIST digits, CIFAR-10).
+- Implement data augmentation to improve model performance.
+
+## Tips for Students
+
+- Fashion MNIST contains **10 categories** of clothing items (t-shirt, trouser, pullover, dress, etc.).
+- Training on CPU is fast, but using a GPU will make it faster.
+- Focus on understanding the workflow rather than achieving perfect accuracy.
