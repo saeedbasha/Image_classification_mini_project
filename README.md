@@ -11,14 +11,6 @@ This project is designed for local Jupyter Notebook usage and focuses on the cor
 - Make predictions and visualize results.
 - Explore basic model performance metrics.
 
-## Files
-
-- `image_classifier.ipynb` – The main notebook with the full workflow:  
-  1. Loading and preparing the dataset  
-  2. Building a CNN model  
-  3. Training and evaluating the model  
-  4. Making predictions and plotting results  
-
 ## Requirements
 
 - Python 3.x
