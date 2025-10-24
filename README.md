@@ -53,7 +53,7 @@ pip install tensorflow numpy matplotlib jupyter
 - Experiment with different datasets (e.g., MNIST digits, CIFAR-10).
 - Implement data augmentation to improve model performance.
 
-## Tips for Students
+## Tips
 
 - Fashion MNIST contains **10 categories** of clothing items (t-shirt, trouser, pullover, dress, etc.).
 - Training on CPU is fast, but using a GPU will make it faster.
